@@ -1,0 +1,46 @@
+
+@import url(http://fonts.googleapis.com/css?family=Roboto:400);
+body {
+    background-color:#fff !important;
+    -webkit-font-smoothing: antialiased;
+    font: normal 14px Roboto,arial,sans-serif;
+    background-image: url(../../../public/images/misc/admin-background.jpg);
+}
+
+html body .panel {
+    border: 0;
+    background: #333;
+    background: rgba(0, 0, 0, .65);
+    border-radius: 0;
+    height: 238px;
+    margin-top: 30%;
+}
+html body .panel-heading {
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: 0.025em;
+    height: 66px;
+    line-height: 45px;
+    border-radius: 0;
+}
+html body .panel-default .panel-heading {
+    background: #444;
+    background: rgba(255, 255, 255, .1);
+    border-bottom: 1px solid rgba(255, 255, 255, .1);
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 500;
+}
+html body .panel-body {
+    padding: 20px;
+}
+html body .form-control {
+    border: 1px solid rgba(255, 255, 255, .1);
+    box-shadow: none;
+    background: rgba(255, 255, 255, .1);
+}
+
+html body .error {
+    color:red;
+}

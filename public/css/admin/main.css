@@ -1,0 +1,76 @@
+.page-title {
+    border-bottom: 2px solid #ddd;
+    margin-bottom:20px;
+}
+
+.info-block {
+    margin-top:20px;
+}
+
+.section-name{
+    font-size:20px;
+    font-weight: bold;
+}
+
+.block{
+    margin-bottom:10px;
+}
+
+.hr{
+    border-bottom: 2px solid #ddd;
+}
+
+.doctor-bio {
+    width:350px;
+    text-align: justify;
+}
+
+.doctor-img {
+    /*height:58px;*/
+}
+
+.add-doctor-btn{
+    margin-top: 20px;
+}
+
+.error{
+    color:red;
+}
+
+.success_msg{
+    font-size:18px;
+    color:#07885D;
+}
+
+#page-wrapper{
+    padding: 10px 30px 30px 30px !important;
+    min-height: 550px;
+}
+
+.img-labal{
+    margin-top:25px !important
+}
+
+.delete-input{
+    font-size: 30px;
+    margin-top: 20px;
+    display: block;
+    float: left;
+    color:#f00;
+    cursor:pointer;
+}
+
+.add-input{
+    font-size: 30px;
+    margin-top: 20px;
+    display: block;
+    float: left;
+    color:green;
+    cursor:pointer;
+}
+
+div[id$='_block']{
+    border: 2px solid #E8E1E1;
+    padding: 10px;
+    border-radius: 10px;
+}
